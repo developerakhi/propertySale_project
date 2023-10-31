@@ -1,0 +1,33 @@
+.btn-sm.btn-icon {
+    padding: 0.416rem;
+    width: calc(2.02rem + 2px);
+    height: calc(2.02rem + 2px);
+}
+.btn-soft-info {
+    background-color: rgba(37, 188, 241, 0.15);
+    color: #25bcf1;;
+}
+.btn-soft-primary {
+    background-color: rgba(247, 123, 11, 0.15);;
+    color: #f77b0b;
+}
+.btn-soft-danger {
+    background-color: rgba(239, 72, 106, 0.15);;
+    color: #ef486a;
+}
+.size {
+    font-size: 8px;
+}
+
+.brand-link {
+    padding: 0.8125rem 0.5rem;
+    font-size: 1.25rem;
+    display: inline-block;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+[class*=sidebar-dark] .brand-link {
+    color: rgba(255,255,255,.8);
+    border-bottom: none;
+}
